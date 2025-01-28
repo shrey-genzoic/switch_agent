@@ -1,0 +1,6 @@
+bill-env
+.env
+app.py
+Bill_pdf.pdf
+electricity_bills.pdf
+unused_code.py

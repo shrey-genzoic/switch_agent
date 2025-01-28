@@ -1,0 +1,5 @@
+pdf2image
+openai
+pillow
+opencv-python
+langsmith
