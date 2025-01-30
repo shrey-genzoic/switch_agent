@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='electricity-bill-extractor',  # Replace with your project name
+    name='agent',  # Replace with your project name
     version='0.1.0',  # Initial version
     author="Genzoic",  # Replace with your name
     author_email="Shreyas.joshi@genzoic.com",  # Replace with your email
