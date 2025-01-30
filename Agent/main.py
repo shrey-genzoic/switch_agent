@@ -325,7 +325,7 @@ model_country = ChatGroq(
 pdf_path = "electricity_bills.pdf"
 
 # Convert the PDF pages to images (one image per page)
-images = convert_from_path(pdf_path)
+
 
 # Function to encode an image to base64
 def encode_image(image_path):
@@ -334,12 +334,12 @@ def encode_image(image_path):
 
 # Iterate through the images extracted from the PDF
 
-def bill_extractor():
+def bill_extractor(pdf_path):
         
         final_answer={
              "electricity":[]
         }
-             
+        images = convert_from_path(pdf_path)
         
         for page_number, image in enumerate(images, start=1):
 
@@ -482,7 +482,7 @@ Follow the instructions carefully and ensure your response adheres to the format
 
 
 
-final_data =bill_extractor()
+final_data =bill_extractor(pdf_path)
 
 #print(final_data)
    
