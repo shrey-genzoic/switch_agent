@@ -8,7 +8,7 @@ import cv2
 import openai
 import openai
 from langsmith.wrappers import wrap_openai
-from langsmith import traceable
+#from langsmith import traceable
 from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
